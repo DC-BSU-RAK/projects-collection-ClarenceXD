@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/gangle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="92dp"
+        android:alpha="1"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/gangle"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gangle" />
+
+    <ImageButton
+        android:id="@+id/jax"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:alpha="1"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/jax"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/gangle"
+        app:layout_constraintTop_toBottomOf="@+id/gangle"
+        app:srcCompat="@drawable/jax" />
+
+    <ImageButton
+        android:id="@+id/zooble"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:alpha="1"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/zooble"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/jax"
+        app:layout_constraintTop_toBottomOf="@+id/jax"
+        app:srcCompat="@drawable/zooble" />
+
+    <ImageButton
+        android:id="@+id/ragatha"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:alpha="1"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/ragatha"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/zooble"
+        app:layout_constraintEnd_toEndOf="@+id/pomni"
+        app:srcCompat="@drawable/ragatha" />
+
+    <ImageButton
+        android:id="@+id/pomni"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:alpha="1"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/pomni"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/jax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jax"
+        app:srcCompat="@drawable/pomni" />
+
+    <ImageButton
+        android:id="@+id/kinger"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:alpha="1"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/kinger"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/gangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toEndOf="@+id/gangle"
+        app:layout_constraintTop_toTopOf="@+id/gangle"
+        app:srcCompat="@drawable/kinger" />
+
+    <Button
+        android:id="@+id/match_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:alpha="1"
+        android:backgroundTint="#FF56DD"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/match_btn"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zooble" />
+
+    <ImageButton
+        android:id="@+id/helper"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="#00FF0000"
+        android:contentDescription="@string/help"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/question" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pomni" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/image1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image1"
+        app:srcCompat="@drawable/pomni" />
+
+    <TextView
+        android:id="@+id/nicknameDisplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/after_nick"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/image2"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/image1"
+        app:layout_constraintTop_toBottomOf="@+id/image1" />
+
+    <TextView
+        android:id="@+id/textDisplayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/carter_one"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="Kinger’s unstable personality adds mystery, while Pomni reacts with confusion and curiosity to his unpredictable behavior."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/nicknameDisplayer"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/nicknameDisplayer"
+        app:layout_constraintTop_toBottomOf="@+id/nicknameDisplayer" />
+
+    <ProgressBar
+        android:id="@+id/loverate"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:max="100"
+        android:progress="0"
+        android:progressBackgroundTint="#B8B8B8"
+        android:progressTint="#FF56DD"
+        android:scaleY="3"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDisplayer2" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="225dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#FF56DD"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/after_match"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loverate" />
+
+    <TextView
+        android:id="@+id/namedis1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/carter_one"
+        android:text="nameeee"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/image1"
+        app:layout_constraintEnd_toEndOf="@+id/image1"
+        app:layout_constraintStart_toStartOf="@+id/image1" />
+
+    <TextView
+        android:id="@+id/namedis2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/carter_one"
+        android:text="nameeee"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/image2"
+        app:layout_constraintEnd_toEndOf="@+id/image2"
+        app:layout_constraintStart_toStartOf="@+id/image2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

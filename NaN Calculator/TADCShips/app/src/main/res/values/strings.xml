@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TADC Ships</string>
+    <string name="match_btn">Match</string>
+
+    <string name="gangle">Gangle</string>
+    <string name="kinger">Kinger</string>
+    <string name="jax">Jax</string>
+    <string name="pomni">Pomni</string>
+    <string name="zooble">Zooble</string>
+    <string name="ragatha">Ragatha</string>
+    <string name="help">Open Help Menu</string>
+    <string name="previous">Close Menu</string>
+
+<!--    Helper Page-->
+    <string name="helperHeading">Instructions</string>
+    <string name="helperText1">-Tap and select 2 characters</string>
+    <string name="helperText2">-Click Match</string>
+    <string name="helperText3">-See the relationship and compatibility</string>
+
+<!--    After Match-->
+    <string name="after_nick">Nickname: </string>
+    <string name="after_placeholder1">Kinger’s unstable personality adds mystery, while Pomni reacts with confusion and curiosity to his unpredictable behavior.</string>
+    <string name="after_match">Next Match</string>
+
+
+
+
+
+
+
+
+</resources>
