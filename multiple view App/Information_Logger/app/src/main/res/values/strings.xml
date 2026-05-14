@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Info Logger</string>
+    <string name="intro1">Don\'t Forget Again</string>
+    <string name="intro2">in</string>
+
+    <!--    remove screen string-->
+    <string name="remove_btn_selected">Clear Selected Data</string>
+    <string name="remove_btn_all">Clear All Data</string>
+
+<!--    warning screen-->
+    <string name="Warning_Head">⚠️Warning⚠️</string>
+    <string name="Warning_Text">This will erase all saved data and notes from Slot 1 to 5. This action cannot be undone</string>
+
+    <!--    save Screen-->
+    <string name="save_btn">Save</string>
+    <!--    placeholder text-->
+    <string name="place_name">Name</string>
+    <string name="place_number">Phone Number</string>
+    <string name="place_about">Description</string>
+
+    <!--    instructions-->
+    <string name="instructions_top_heading">About Info Logger</string>
+    <string name="instructions_top">Info Logger is a simple app designed to help users save and remember important details about people they meet.</string>
+    <string name="instructions_points_heading">How to Use:</string>
+
+    <string name="point1">- Enter a name, phone number, and short description.</string>
+    <string name="point2">- Select one of the 5 storage slots.</string>
+    <string name="point3">- Use Save to save the information written.</string>
+    <string name="point4">- Use View to check the saved information.</string>
+    <string name="point5">- Use Delete to remove one slot or clear all saved data.</string>
+
+    <string name="instructions_reason_heading">Why This App Was Created:</string>
+    <string name="instructions_reason">InfoLogger was created for users who forget names, phone numbers, or useful details after meeting someone. It provides a quick and simple memory aid for everyday use.</string>
+    <string name="back_btn">Back</string>
+</resources>
